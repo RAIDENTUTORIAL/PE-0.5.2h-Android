@@ -16,4 +16,3 @@ function onCreatePost()
 	setProperty('botplayTxt.visible', false)
     end
 end
--- Lua by Red

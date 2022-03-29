@@ -6,4 +6,3 @@ function onCreatePost()
     setObjectCamera('songText', 'camOther');
     addLuaText('songText');
 end
--- Special Thanks to Teniente Mantequilla for the fix!
