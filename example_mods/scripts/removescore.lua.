@@ -1,0 +1,19 @@
+function onCreatePost()
+     if botplay then
+	setProperty('scoreTxt.visible', false)
+	setProperty('timeBar.visible', false)
+	setProperty('timeBarBG.visible', false)
+	setProperty('timeTxt.visible', false)
+	setProperty('botplayTxt.visible', false)
+   end
+end
+function onCreatePost()
+    if not botplay then
+    setProperty('scoreTxt.visible', false)
+	setProperty('timeBar.visible', false)
+	setProperty('timeBarBG.visible', false)
+	setProperty('timeTxt.visible', false)
+	setProperty('botplayTxt.visible', false)
+    end
+end
+-- Lua by Red

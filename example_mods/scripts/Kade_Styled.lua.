@@ -1,0 +1,9 @@
+function onCreatePost()
+    makeLuaText('songText', songName .. ' - ' .. getProperty('') .. "Sick Engine", 0, 2, 701);
+    setTextAlignment('songText', 'left');
+    setTextSize('songText', 15);
+    setTextBorder('songText', 1, '000000');
+    setObjectCamera('songText', 'camOther');
+    addLuaText('songText');
+end
+-- Special Thanks to Teniente Mantequilla for the fix!
